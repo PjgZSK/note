@@ -1,0 +1,47 @@
+start: SlotLoading.cs
+
+SlotLoading.cs
+    key: 
+
+slot key feature:
+    1. set page's controller
+        GComponent a;
+        a.GetControllerAt(0).SetSelectedPage("halloween");
+
+fairyGUI key feature:
+    1. load package
+    //demo就是发布时填写的文件名
+     UIPackage.AddPackage("demo");
+    //如果在子目录下
+    UIPackage.AddPackage("路径/demo");
+    //如果不放到Resources或者其子目录下，可以传入全路径，但这种方法只能在Editor里使用
+    UIPackage.AddPackage("Assets/SomePath/Package1");
+
+    2. create ui
+    GComponent view = UIPackage.CreateObject(“包名”, “组件名”).asCom;
+    //以下几种方式都可以将view显示出来：
+    //1，直接加到GRoot显示出来
+    GRoot.inst.AddChild(view);
+    //2，使用窗口方式显示
+    aWindow.contentPane = view;
+    aWindow.Show();
+    //3，加到其他组件里
+    aComponnent.AddChild(view);
+
+    3. resource url
+    在FairyGUI中，每一个资源都有一个URL地址。
+    Example: ui://vah15ncrht6g5a
+
+    所以我们通常使用另外一种格式：ui://包名/资源名。
+    Example: ui://MainUI/bg_holloween
+    注意：“ui://包名/资源名”这个格式的地址是不包含文件夹的，只需要用到包名和资源名。
+
+    运行时要获得指定对象的URL地址，可以使用如下方法：
+    //对象的URL地址
+    Debug.Log(aObject.resourceURL);
+    //对象在资源库中的名称
+    Debug.Log(aObject.packageItem.name);
+    //对象所在包的名称
+    Debug.Log(aObject.packageItem.owner.name);
+    //根据URL获得资源名称
+    Debug.Log(UIPackage.GetItemByURL(resourceURL).name);
