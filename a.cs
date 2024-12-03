@@ -1,5 +1,5 @@
 class A
 {
-    public int a;
+    public int c;
     public int b;
 }
