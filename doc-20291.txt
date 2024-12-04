@@ -2,6 +2,7 @@ todo
 unity addressable(asset bundle)
 b-spline
 ?? #!/bin/bash
+dev model
 
 fairygui cli publish(only available on pro version):
 FairyGUI-Editor -batchmode -p F:\slot\resource-20291\20291.fairy -b theme_legendofathena -o E:\temp -logFile F:\slot\FairyGUI-Editor\log
