@@ -1,43 +1,72 @@
+today-todo
+1. note
+//1. CreatePinataGraphicSpinSlot
+//2. public static PinataFeatureGameParas GetDefault()
+//3. private IEnumerator PlayPinataMergeAnimation(IEnumerable<Pinata> oldp, IEnumerable<Pinata> newp)
+
+
+tomorrow-todo
+
+
+note:
+8.
+tea activity
+    slot activity
+        feature game
+        save
+        step featrue progress
+tea activity paras
+    slot activity paras
+        feature trigger rule
+        slot game
+
+
+
+pinata:
+origin:
+1 1 1 1
+1 1 1 0
+1 1 0 0
+
+x scan:
+1 1 1 1
+2 2 2 0
+3 3 0 0
+
+sum:
+1 1 1 1
+3 3 3 0
+6 6 0 0
+
+repaint:
+6 6 3 1
+6 6 3 0
+6 6 0 0
+
+repaint separated:
+6 6 3 7
+6 6 3 0
+6 6 0 0
+
+origin:
+1 1 1 1
+1 0 1 0
+0 1 0 0
+
+// special
+origin:
+1 1 1 1
+1 1 1 0
+1 0 0 0
+
+// special
+origin:
+0 1 0 0
+1 1 0 0
+1 1 1 0
+
 todo
-unity addressable(asset bundle)
 b-spline
-?? #!/bin/bash
-dev model
-
-fairygui cli publish(only available on pro version):
-FairyGUI-Editor -batchmode -p F:\slot\resource-20291\20291.fairy -b theme_legendofathena -o E:\temp -logFile F:\slot\FairyGUI-Editor\log
-
-FairyGUI-Editor setting/Publish.json
-"path": "F:\\slot\\20291\\Assets\\RawResources/{publish_file_name}",
-"branchPath": "F:\\slot\\20291\\Assets\\RawResources/{publish_file_name}",
-
-temp:
-athena sound
-bg 普通玩法背景音乐
-collect_down 收集物落在框里的声音
-collect_fly 收集物飞向收集点的声音
-collect_success 全部收集完成声音
-collect_unlock 铁链解锁的声音
-free freegame模式下背景音乐
-switch/switch1/switch2/switch3 trans动效播放背景音乐
-wheel_show 转盘界面弹出音效
-转盘声音和转完显示的声音在common目录下wheel和wheel_get
-
-Common config:
-row, col, wild, scatter(free game)
-syms
-
-Todo(Athena):
-set config manually
-
-Athena Activity Config:
-free game trigger rule file
-feature game trigger rule file
-free game paras file
-feature game paras file
-
-Slot Question:
-1. what is jakepot? what is scatter?
 
 slot:
 SlotLoading.cs :
