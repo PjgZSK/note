@@ -1,0 +1,135 @@
+Notes:
+
+
+- gnu-coreutils
+
+- grammar
+    - pronoun(pro noun) 
+        - who, which, what
+    - noun
+    - adverb(ad verb)
+        - up
+    - verb
+    - auxiliary verb
+        - do
+    - modal verb
+        - will, would, can
+    - adjective
+    - preposition
+        - to, as
+    - conjunction
+    - determiner
+        - either, what
+    - predeterminer
+
+- grammar examples
+    - as(proposition)
+        - used as the subject...
+    - will(modal verb)
+    - what(determiner)
+        - what thing or things
+    - up(adverb)
+        - end up staying at...
+    - out
+
+- grammar layer
+    - action, condition and experience
+    - physical
+    - mental
+
+- code
+    - self review
+    - config in file/field/property vs config in behaviour(function)
+        - config in file/field/property:
+            - identity, address
+        - config in behaviour(function):
+            - branch behaviour
+    - interface vs virtual function 
+        - interface:
+            - the abstract behaviour which is relative to objects not belong to a same concept 
+        - virtual function
+            - the abstract behaviour which is relative to objects belong to a same concept 
+    - abstract
+        - layer
+        - available
+- approach
+    - target and method
+    - 5 why
+
+- graphic math
+    - matrix(4x4, xyzw):
+        - translation matrix
+            - v
+                - x,y,z,1
+            - M
+                - 1 0 0 dx
+                - 0 1 0 dy
+                - 0 0 1 dz
+                - 0 0 0 1
+            - M*v => (x+dx, y+dy, z+dz, 1)
+            - math equation
+                - vector add
+            - point
+                - change position
+            - vector
+                - change length and direction
+    - rotation matrix(anticlockwise)
+        - x
+            - coscos - sinsin
+        - y 
+            - sincos + cossin
+        - Mz
+            - cos -sin 0 0
+            - sin cos 0 0
+            - 0 0 1 0
+            - 0 0 0 1
+        - My
+            - ...
+        - Mx
+            - ...
+    - scaling matrix
+        - M
+            - sx 0 0 0
+            - 0 sy 0 0
+            - 0 0 sz 0
+            - 0 0 0 1
+        - M*v => (x*sx, y*sy, z*sz, 1)
+        - point
+            - change position
+        - vector
+            - change length and direction
+
+    - basis change matrix
+        - translation * rotation...
+
+- vector operations
+    - v add(addition): 
+        - graphic meaning
+            - diagonal line
+            - change length and direction
+        - equation
+            - (x1+x2, y1+y2)
+    - v sub(subtraction)
+        - graphic meaning
+            - end-to-end line(from subtrahend to minuend)
+            - change length and direction
+        - equation
+            - (x1-x2, y1-y2)
+    - v scalar mul(multiplication)
+        - graphic meaning
+            - only change length
+        - equation
+            - (x*s, y*s)
+    - v dot product
+        - graphic meaning
+            - projection
+            - only scalar
+        - equation
+            - x1*x2+y1*y2
+    - v cross product
+        - graphic meaning
+            - perpendicular vector
+            - length equal area of the parallelogram
+            - change length and direction
+        - equation
+            - (y1*z2-z1*y2, z1*x2-x1*z2, x1*y2-y1*x2)
