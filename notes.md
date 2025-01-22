@@ -26,16 +26,78 @@ Notes:
     - as(proposition)
         - used as the subject...
     - will(modal verb)
-    - what(determiner)
-        - what thing or things
+    - what(determiner, pronoun)
+        - (determiner) what thing or things
+        - (pronoun) what is in production
+        - (pronoun) is what the branch looked like on the last commit to it
     - up(adverb)
         - end up staying at...
     - out
+    - for(proposition)
+        - n+n
+            - intended to be given to 
+                - *buy something for baby*
+            - having the purpose of 
+                - *for sale*
+                - *for hire* 
+                - *for use*
+        - clause+n/v-ing 
+            - because of or as a result of something
+                - *all the better for seeing you*
+                - *The things you do for love*
+                - *Scotland is famous for its spectacular countryside*
+                - *He's best remembered for his novels*
+            - used to show an amount of distance/time
+                - *We walked for miles*
+                - *for years*
+            - on the occasion of or at the time of
+                - *for Christmas*
+                - *for nine o'clock*
+                - *for Jim's 60th birthday*
+            - used for comparing one thing with others of the same type
+                - *She's very mature for her age*
+                - *For every two people in favour of the law there are three against* 
+                - *The winter has been unusually cold for Florida*
+                - *It's a difficult decision, especially for a child*
+                - *For a man of his wealth he isn't exactly generous*
+            - used to say whose responsibility something is 
+                - *She knew the driver of the other car wasn't responsible for her son's death*
+            - in support of or in agreenment with
+                - *I voted for the Greens at the last election* 
+                - *Who's for tennis?*
+            - in order to help someone
+                - *What can I do for you?*
+            - in relation to something or someone
+                - *Her feelings for him had changed*
+                - *How are you doing for money/time?*
+            - in exchange
+                - *How much did you pay for your glasses?*
+                - *I've sponsored her $1 for every mile that she runs*
+            - being employed by or representing a company, country, etc 
+                - *She works for a charity*
+            - towards; in direction of
+                - *They looked as if they were heading for the train station* 
+                - *Just follow signs for the museum*
+                - *It says this train is for Birminghan and Coventry only*
+            - show meaning
+                - *What's the Spanish word for "vegetarian"?*
+                - *What does the "M.J." stand for? Maria Jose?*
+            - in order to get or achieve
+                - *I had to run for the bus*
+            - the duty or responsibility of 
+                - *That's for you to decide*
+                - *It's not for me to tell her what she should do with her life*
 
 - grammar layer
     - action, condition and experience
     - physical
     - mental
+
+- dao
+    - wei miao xuan tong 
+    - shang shan ruo shui
+    - chong ru ruo jin
+    - gui da huan ruo sheng
 
 - code
     - self review
@@ -52,9 +114,58 @@ Notes:
     - abstract
         - layer
         - available
+
+- python
+    - module
+        - what is python module?
+            - .py file
+        - how to import modules?
+            - *import module-a*
+            - *from module-a import symbol-b as alias-c*
+        - module search path
+            - *sys.buildin_module_names*
+                - build-in module 
+            - *sys.path*
+                - the directory containing input script 
+                - PYTHONPATH
+                    - prefix/lib/pythonversion, exec_prefix/lib/pythonversion
+                        - prefix and exec_prefix are installation-dependent directory, both defaulting to /usr/local
+                - the installation-dependent default(by convention including a *site-packages* directory)
+    - package
+        - what is python package
+            - a directory containing a script named *__init__.py*
+        - how to import a python package
+            - *import packge-a.subdir-b.subdir-c*
+    - string
+        - f-string
+            - a formatted string literal that is prefixed with a 'f' or 'F'
+            - *f"This is a {variable}"*
+        - r-string
+            - make escape letter(\) invalid
+                - *r"\\"* is identical with *"\\\\"*
+    - list
+        - initialization
+            - []
+        - frequently used function
+            - *extend(iterator)*
+            - *append(item)*
+    - lambda
+        - initialization
+            - *lambda o:o.get_result()*
+    
 - approach
     - target and method
     - 5 why
+
+- set theory
+    - union
+    - intersection
+    - difference
+    - complement
+
+- rendering 
+    - Stencil Op
+    - ZTest
 
 - graphic math
     - matrix(4x4, xyzw):
