@@ -107,6 +107,10 @@ Notes:
                 - *She lives in a special home for the elderly*
                 - *The French was defeated at Waterloo in 1815*
 
+- sentence example
+    - of, it is ... for ... to ...
+        - *There are often cases where it is desirable for a function to take a variable number of arguments*
+
 - grammar layer
     - action, condition and experience
     - physical
