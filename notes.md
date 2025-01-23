@@ -87,11 +87,37 @@ Notes:
             - the duty or responsibility of 
                 - *That's for you to decide*
                 - *It's not for me to tell her what she should do with her life*
+    - the(determiner)
+        - used before nouns
+            - *important* to refer to particular things or person that have been already talked about or are already known or are in a situation where it is clear what is happening
+                - *Please would you pass the salt*
+                - *I'll pick you at the airport*
+                - *I have bought a new shirt and some new shoes. The shirt was pretty expensive, but the shoes weren't* 
+            - the range of meaning of the noun is limited in some way
+                - *I really enjoy the book that I've finished reading* 
+            - to refer to things or person when only one exist at any one time
+                - *in the future*
+                - *the world*
+                - *in the north of Spain* 
+        - used before adjectives
+            - to turn adjectives into nouns to refer to one particular thing or person described by the adjective
+                - *It's seem the decesed had no living relatives*
+                - *I suppose we'll just have to wait for the inevatable*
+            - to turn adjectives into nouns to refer to people or things in general that can be described by the adjective
+                - *She lives in a special home for the elderly*
+                - *The French was defeated at Waterloo in 1815*
 
 - grammar layer
     - action, condition and experience
     - physical
     - mental
+
+- word
+    - conversion, transform
+        - conversion
+            - the process of conversing something from one thing to another
+        - transform
+            - a complete change in the appearance or character of something or someone, especially so that that thing or person is improved 
 
 - dao
     - wei miao xuan tong 
@@ -114,6 +140,7 @@ Notes:
     - abstract
         - layer
         - available
+    - character encode
 
 - python
     - module
@@ -145,7 +172,7 @@ Notes:
                 - *r"\\"* is identical with *"\\\\"*
     - list
         - initialization
-            - []
+            - *l = [1,2,3]*
         - frequently used function
             - *extend(iterator)*
             - *append(item)*
