@@ -145,6 +145,8 @@ Notes:
         - layer
         - available
     - character encode
+        - all files are restored with binary format in computer
+        - what dose decode do is explain and extract thoese binary and convert them to another format correctly
 
 - python
     - module
