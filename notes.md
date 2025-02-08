@@ -155,7 +155,12 @@ Notes:
 - todo(dev)
     - initial git build
         - on Windows
-            - *#include <sys/mman.h>:  No such file or directory*
+            - current error
+                - *#include <sys/mman.h>:  No such file or directory*
+            - conclusion
+                - initial git is write for Linux and is not compatiable with Windows 
+        - on OS X
+
 
 - python
     - module
