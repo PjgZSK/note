@@ -3,6 +3,22 @@ Notes:
 
 - gnu-coreutils
 
+- abbreviations
+    - *i.e.*
+        - meaning
+            - *that is* or *in other word*
+        - example
+            - *She loves citrus fruits, i.e., oranges, lemons, and limes.*
+        - for what
+            - to explain or clarify
+    - *e.g.*
+        - meaning
+            - *for example*
+        - example
+            - *She loves citrus fruits, e.g., oranges, lemons, and limes.*
+        - for what
+            - to give example
+
 - grammar
     - pronoun(pro noun) 
         - who, which, what
