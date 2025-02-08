@@ -152,6 +152,11 @@ Notes:
     - msys2
         - linux-like development environment for Windows
 
+- todo(dev)
+    - initial git build
+        - on Windows
+            - *#include <sys/mman.h>:  No such file or directory*
+
 - python
     - module
         - what is python module?
