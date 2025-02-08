@@ -148,6 +148,10 @@ Notes:
         - all files are restored with binary format in computer
         - what dose decode do is explain and extract thoese binary and convert them to another format correctly
 
+- code tools
+    - msys2
+        - linux-like development environment for Windows
+
 - python
     - module
         - what is python module?
@@ -277,3 +281,12 @@ Notes:
             - change length and direction
         - equation
             - (y1*z2-z1*y2, z1*x2-x1*z2, x1*y2-y1*x2)
+
+- game jobs 
+    - technique
+        - gameplay
+        - security
+        - pipeline 
+            - build
+            - optimization
+        - version management
