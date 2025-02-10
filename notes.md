@@ -3,6 +3,20 @@ Notes:
 
 - gnu-coreutils
 
+- gnu make
+    - makefile
+        - target
+            - preset 
+                - all
+                - install
+                - clean
+            - file
+        - dependence
+            - file
+        - rule
+            - *target: dependences*
+                (option, default)*shell command*
+
 - Latin abbreviations
     - *i.e.*
         - stand for *id set* in Latin
