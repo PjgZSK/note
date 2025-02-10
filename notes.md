@@ -17,6 +17,15 @@ Notes:
             - *target: dependences*
                 (option, default)*shell command*
 
+- c
+    - system call
+        - `sys/stat.h`
+            - `mkdir(const char*, unsigned int mode_t)`
+                - make a dir
+        - `stdio.h`
+            - `perror(const char*)`
+                - print a system error message 
+
 - Latin abbreviations
     - *i.e.*
         - stand for *id set* in Latin
