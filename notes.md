@@ -3,8 +3,9 @@ Notes:
 
 - gnu-coreutils
 
-- abbreviations
+- Latin abbreviations
     - *i.e.*
+        - stand for *id set* in Latin
         - meaning
             - *that is* or *in other word*
         - example
@@ -12,12 +13,62 @@ Notes:
         - for what
             - to explain or clarify
     - *e.g.*
+        - stand for *exempli gratia* in Latin
         - meaning
             - *for example*
         - example
             - *She loves citrus fruits, e.g., oranges, lemons, and limes.*
         - for what
             - to give example
+
+- vowels, consonants
+- syllable
+- ryhme
+- schwa: weak vowel sound in some syllable
+- pronunciation sample
+    - *citrus*
+        - */ˈsɪtrəs/*
+        - phonetic spelling
+            - *SIT-rəs*
+        - syllables
+            - *si*
+                - sounds like *sit* with *s* at the end 
+                - stress
+            - *trəs* 
+                - rhymes with *us* 
+    - *pronunciation*
+        - */prəˌnʌnsiˈeɪʃn/*
+        - phenotic spelling
+            - *pruh-NUN-see-AY-shun*
+        - syllables
+            - *prə*
+                - *o* is silent
+                - a schwa sound
+            - *ˌnʌn*
+                - stress
+            - *si*
+            - *ˈeɪʃn*
+    - *pronounce*
+        - */prəˈnaʊns/*
+        - phonetic spelling
+            - *pruh-NOWNSS*
+        - syllables
+            - *prə*
+                - *o* is silent
+                - a schwa sound
+            - *ˈnaʊns*
+                - rhymes with *ounce*
+                - stress
+    - *conflict*(noun)
+        - */ˈkɑːnflɪkt/*
+        - phonetic spelling
+            - *KAHN-flikt*
+        - syllables
+            - *ˈkɑːn*
+                - sounds like *caan* (American)
+                - stress
+            - *flɪkt*
+                - rhyming with *strict*
 
 - grammar
     - pronoun(pro noun) 
