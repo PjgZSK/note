@@ -25,6 +25,55 @@ Notes:
         - `stdio.h`
             - `perror(const char*)`
                 - print a system error message 
+    - inode
+        - struct
+            - `stat`
+            - `statx` 
+        - component
+            - file type and mode
+                - `st_mode`
+                    - `S` stand for `stat`, `I` stand for `inode`
+                    - file type
+                        - `S_IFMT`   0170000 file make type(`FMT` stand for `format` or `file mask type`)
+                        - `S_IFSOCK` 0140000 socket
+                        - `S_IFLNK`  0120000 symbolic link
+                        - `S_IFREG`  0100000 regular file
+                        - `S_IFBLK`  0070000 block device
+                        - `S_IFDIR`  0040000 directory
+                        - `S_IFCHR`  0020000 character device
+                        - `S_IFIFO`  0010000 FIFO
+                    - file mode
+                        - `S_IRWXU`  0000700  /* RWX mask for owner */
+                        - `S_IRUSR`  0000400  /* R for owner */
+                        - `S_IWUSR`  0000200  /* W for owner */
+                        - `S_IXUSR`  0000100  /* X for owner */
+                        - `S_IRWXG`  0000070  /* RWX mask for group */
+                        - `S_IRGRP`  0000040  /* R for group */
+                        - `S_IWGRP`  0000020  /* W for group */
+                        - `S_IXGRP`  0000010  /* X for group */
+                        - `S_IRWXO`  0000007  /* RWX mask for other */
+                        - `S_IROTH`  0000004  /* R for other */
+                        - `S_IWOTH`  0000002  /* W for other */
+                        - `S_IXOTH`  0000001  /* X for other */
+                        - `S_ISUID`  0004000  /* set user id on execution */
+                        - `S_ISGID`  0002000  /* set group id on execution */
+                        - `S_ISVTX`  0001000  /* directory restrcted delete */
+            - inode number
+                - `st_ino`
+            - link count
+                - `st_nlink`
+            - user id
+                - `st_uid`
+            - group id
+                - `st_gid`
+            - file size
+                - `st_size`
+            - last access time(atime)
+                - `st_atime`
+            - last modification time(mtime)
+                - `st_mtime`
+            - last change time(ctime)
+                - `st_ctime`
 
 - Latin abbreviations
     - *i.e.*
