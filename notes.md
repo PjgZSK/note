@@ -352,42 +352,50 @@ Notes:
 
 
 - python
-    - module
-        - what is python module?
-            - .py file
-        - how to import modules?
-            - *import module-a*
-            - *from module-a import symbol-b as alias-c*
-        - module search path
-            - *sys.buildin_module_names*
-                - build-in module 
-            - *sys.path*
-                - the directory containing input script 
-                - PYTHONPATH
-                    - prefix/lib/pythonversion, exec_prefix/lib/pythonversion
-                        - prefix and exec_prefix are installation-dependent directory, both defaulting to /usr/local
-                - the installation-dependent default(by convention including a *site-packages* directory)
-    - package
-        - what is python package
-            - a directory containing a script named *__init__.py*
-        - how to import a python package
-            - *import packge-a.subdir-b.subdir-c*
-    - string
-        - f-string
-            - a formatted string literal that is prefixed with a 'f' or 'F'
-            - *f"This is a {variable}"*
-        - r-string
-            - make escape letter(\) invalid
-                - *r"\\"* is identical with *"\\\\"*
-    - list
-        - initialization
-            - *l = [1,2,3]*
-        - frequently used function
-            - *extend(iterator)*
-            - *append(item)*
-    - lambda
-        - initialization
-            - *lambda o:o.get_result()*
+    - build
+        - module
+            - what is python module?
+                - .py file
+            - how to import modules?
+                - *import module-a*
+                - *from module-a import symbol-b as alias-c*
+            - module search path
+                - *sys.buildin_module_names*
+                    - build-in module 
+                - *sys.path*
+                    - the directory containing input script 
+                    - PYTHONPATH
+                        - prefix/lib/pythonversion, exec_prefix/lib/pythonversion
+                            - prefix and exec_prefix are installation-dependent directory, both defaulting to /usr/local
+                    - the installation-dependent default(by convention including a *site-packages* directory)
+        - package
+            - what is python package
+                - a directory containing a script named *__init__.py*
+            - how to import a python package
+                - *import packge-a.subdir-b.subdir-c*
+    - data structure
+        - string
+            - `""`
+            - f-string
+                - a formatted string literal that is prefixed with a 'f' or 'F'
+                - *f"This is a {variable}"*
+            - r-string
+                - make escape letter(\) invalid
+                    - *r"\\"* is identical with *"\\\\"*
+        - list
+            - `[]`
+            - frequently used function
+                - *extend(iterator)*
+                - *append(item)*
+        - tuple
+            - `()`
+        - set
+            - `{}`
+        - dictionary
+            - `{key:value}`
+    - feature
+        - lambda
+            - `lambda o:o.function()`
     
 - approach
     - target and method
