@@ -1,5 +1,17 @@
 Notes:
 
+- new words
+    - dev
+        - clipboard
+
+- terms 
+    - dev
+        - `\n`(Line Feed - *LF*)
+            - at Unix-like system(Linux, Macos) to represent a newline
+        - `\r`(Carriage Return - *CR*)
+            - at classic Macos to represent a newline
+        - `\r\n`(*CRLF*)
+            - at Windows to represent a newline
 
 - gnu-coreutils
 
@@ -69,6 +81,16 @@ Notes:
                 - stress
             - *flɪkt*
                 - rhyming with *strict*
+    - *auxiliary*
+        - */ɔɡˈzɪljəri/*
+        - phonetic spelling
+            - *awg-ZIL-yuh-ree*
+        - syllables
+            - *ɔɡ*
+            - *ˈzɪl*
+                - stress
+                - rhymes with *ill*
+            - *jəri*
 
 - grammar
     - pronoun(pro noun) 
