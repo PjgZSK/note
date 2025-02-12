@@ -165,23 +165,37 @@ Notes:
             - *jəri*
 
 - grammar
-    - pronoun(pro noun) 
-        - who, which, what
-    - noun
-    - adverb(ad verb)
-        - up
-    - verb
-    - auxiliary verb
-        - do
-    - modal verb
-        - will, would, can
-    - adjective
-    - preposition
-        - to, as
-    - conjunction
-    - determiner
-        - either, what
-    - predeterminer
+    - *the rules about how words change their form and combine with other words to make sentences*
+    - word form
+        - pronoun(pro noun) 
+            - who, which, what
+        - noun
+        - adverb(ad verb)
+            - up
+        - verb
+        - auxiliary verb
+            - do
+        - modal verb
+            - will, would, can
+        - adjective
+        - preposition
+            - to, as
+        - conjunction
+        - determiner
+            - either, what
+        - predeterminer
+    - how words combine with other words
+        - predeterminer determiner (adj noun) (noun noun)
+            - *our innovative game development team to create an immersive anime mobile tactics game*
+                - break down
+                    - *our innovative game development team*
+                        - *our*                 determiner
+                        - *innovative game*     adj + noun -> noun
+                        - *development team*    noun + noun
+                    - *an immersive anime tactics game*
+                        - *an*                  determiner
+                        - *immersive anime*     adj + noun -> noun
+                        - *tactics game*        noun + noun
 
 - grammar examples
     - as(proposition)
