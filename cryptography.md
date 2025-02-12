@@ -5,6 +5,22 @@
         - n-bit cryptography hash
             - one-way
             - collision-resistant
+    - instances
+        - sha-256
+            - message block
+                - 512 bits(16 32-bits words)
+            - operations(32-bits words, w = 32)
+                - bitwise logical word operations
+                    - or
+                    - and
+                    - xor
+                    - complement
+                - Addition modulo 2^w
+                    - *(x+y) mod 2^w*
+                - right shift *SHR(x, n)*
+                    - *SHR(x, n) = x >> n* 
+                - rotate shift(circular right shift) *ROTR(x, n)*
+                    - *ROTR(x, n) = (x >> n) or (x << w - n)*
 
 - endianess
     - definition
