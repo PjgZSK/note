@@ -396,6 +396,14 @@ Notes:
     - feature
         - lambda
             - `lambda o:o.function()`
+        - exception
+            - 
+              ```
+              try: 
+                  ... 
+              except: 
+                  ...
+              ```
     
 - approach
     - target and method
