@@ -100,6 +100,11 @@ Notes:
                 - `st_mtime`
             - last change time(ctime)
                 - `st_ctime`
+        - standard input/standard output/standard error
+            - `stdio.h`
+                - `extern FILE *stdin`
+                - `extern FILE *stdout`
+                - `extern FILE *stderr`
 
 - Latin abbreviations
     - *i.e.*
