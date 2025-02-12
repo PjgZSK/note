@@ -13,6 +13,20 @@ Notes:
         - `\r\n`(*CRLF*)
             - at Windows to represent a newline
 
+- git
+    - structure 
+        - *ref/branch/commit*
+            - info
+            - *tree*
+                - *blob*
+            - parent(*commit*)
+            - author
+            - committer
+    - local refs
+        - .git/refs/heads/*branchs...*
+    - remote refs
+        - .git/refs/remote_name/*branches...*
+
 - gnu-coreutils
 
 - gnu make
