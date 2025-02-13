@@ -26,6 +26,10 @@ Notes:
         - .git/refs/heads/*branchs...*
     - remote refs
         - .git/refs/remote_name/*branches...*
+    - initial git
+        - cache
+            - cache data
+            - cache metadata
 
 - gnu-coreutils
 
