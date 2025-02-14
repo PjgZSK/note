@@ -29,6 +29,10 @@ Notes:
         - .git/refs/heads/*branchs...*
     - remote refs
         - .git/refs/remote_name/*branches...*
+    - initial git
+        - cache
+            - cache data
+            - cache metadata
 
 - gnu-coreutils
 
@@ -103,6 +107,11 @@ Notes:
                 - `st_mtime`
             - last change time(ctime)
                 - `st_ctime`
+        - standard input/standard output/standard error
+            - `stdio.h`
+                - `extern FILE *stdin`
+                - `extern FILE *stdout`
+                - `extern FILE *stderr`
 
 - Latin abbreviations
     - *i.e.*
