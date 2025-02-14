@@ -58,6 +58,10 @@ Notes:
         - `stdio.h`
             - `perror(const char*)`
                 - print a system error message 
+    - standard c library
+        - `stddef.h`
+            - `size_t offsetof(type, member)`  
+                - returns the offset of the field `member` from the start of the structure `type`, in units of bytes 
     - inode
         - struct
             - `stat`
@@ -387,6 +391,7 @@ Notes:
         - examples
             - *Tatarstan demanded greater autonomy within the Russion Federation*
             - *economic autonomy is still a long way off for women*
+    
 
 - dao
     - wei miao xuan tong 
