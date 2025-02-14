@@ -6,6 +6,8 @@ Notes:
         - shallow
         - manual(man)
         - abbreviation
+        - operator
+        - unary
 
 - terms 
     - dev
@@ -62,6 +64,10 @@ Notes:
         - `stddef.h`
             - `size_t offsetof(type, member)`  
                 - returns the offset of the field `member` from the start of the structure `type`, in units of bytes 
+    - operators
+        - `sizeof`
+            - *compile-time operation* 
+            - return the size of a *type* or a *variable* in units of bytes
     - inode
         - struct
             - `stat`
