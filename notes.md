@@ -358,7 +358,35 @@ Notes:
     - *expert*, *expertise*
     - *creativity*
         - related words
-            - *keen*
+            - *keen*, *eager*
+    - *autonomy*
+        - related words
+            - *Tatarstan*
+            - *federation*, *federal*
+            - *economy*, *economic*
+            - *Immanuel Kant*, *Kantian*
+                - *philosophy*, *philosopher*
+                - *ethic*, *moral*, *morality*, *deontology*
+                - *metaphysics*, *physics*, *physical*
+                - *epistemology*
+                - *aesthetics*, *aesthetic*, *subjective*
+                - *emphasize*, *emphasis*
+                - *categorical*
+                - *imperative*
+                - *innate*
+                - *cause*, *causality*
+                - *phenomenon/phenomena*, *noumenon/noumena*
+                - *ultimate*
+                - *disinterested*, *evoke*
+                - *adhere*, *stick*
+                - *rationality*
+                - *universal*, *universality*
+                - *prioritize*
+                - *subjective*, *objective*
+            - *accordance*
+        - examples
+            - *Tatarstan demanded greater autonomy within the Russion Federation*
+            - *economic autonomy is still a long way off for women*
 
 - dao
     - wei miao xuan tong 
