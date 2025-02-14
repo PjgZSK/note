@@ -3,6 +3,9 @@ Notes:
 - new words
     - dev
         - clipboard
+        - shallow
+        - manual(man)
+        - abbreviation
 
 - terms 
     - dev
@@ -311,6 +314,42 @@ Notes:
             - the process of conversing something from one thing to another
         - transform
             - a complete change in the appearance or character of something or someone, especially so that that thing or person is improved 
+    - *curve*
+        - related words
+            - *bend*
+            - *straight*, *straightness*
+            - *deviate*
+            - *steep*
+            - *trajectory*
+            - *pitcher*, *batter*
+            - *smooth*, *arch*, *shape*
+        - examples
+            - *Her lips curved into a smile*
+            - *The road curves to the left just after the bridge*
+    - *idiom*, *idiomatic*
+    - *rigid*
+        - related words
+            - *bend*
+            - *flexible*
+            - *stiff*, *firm*
+    - *lever*, *leverage*
+        - related words
+            - *exert*
+            - *lid*
+            - *pot*
+            - *cage*
+            - *screw*, *screwdriver*
+            - *lift*
+            - *spade*
+            - *capital*(money)
+            - *interest*(money)
+        - examples
+            - *she levered the lid off the pot with a screwdriver*
+            - *my spade hit something solid that wouldn't respond to leverage*
+    - *expert*, *expertise*
+    - *creativity*
+        - related words
+            - *keen*
 
 - dao
     - wei miao xuan tong 
@@ -404,7 +443,37 @@ Notes:
               except: 
                   ...
               ```
-    
+
+- shell
+    - gnu find
+        - search depth
+            - options
+                - `-maxdepth level`
+                - `-mindepth level`
+            - examples
+                - search py file only in current dir
+                    - `find . -maxdepth 1 -iname "*.py"`
+    - git
+        - clone depth
+            - options
+                - `--depth <depth>`
+            - examples
+                - shallow clone
+                    - `git clone --depth 1 url`
+        - man(manual) 
+            - `git help command`
+                - `git help clone`
+                - `git help commit`
+                - ...
+        - remove untracked files from the working tree
+            - `git clean`
+                - options
+                    - `-f` force
+                    - `-d` remove dir
+                - examples
+                    - remove all untracked files and dirs
+                        - `git clean -f -d`
+
 - approach
     - target and method
     - 5 why
