@@ -439,6 +439,7 @@ Notes:
     - *recipe*
         - related words
             - *food*
+    - *usage*, *use*
 
 - dao
     - wei miao xuan tong 
