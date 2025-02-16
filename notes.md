@@ -8,6 +8,12 @@ Notes:
         - abbreviation
         - operator
         - unary
+        - arithmetic
+        - imaginary
+        - preprocessing
+        - compilation
+        - assembly
+        - linking
 
 - terms 
     - dev
@@ -68,6 +74,18 @@ Notes:
         - `sizeof`
             - *compile-time operation* 
             - return the size of a *type* or a *variable* in units of bytes
+    - keywords
+        - `typedef` and `#define`
+            - `typedef` 
+                - keyword
+                - define a type alias
+                - `typedef (definition)`
+                    - `typedef int int32_t`
+            - `#define`
+                - macro
+                - add a substitution rule in preprocessing 
+                - `#define (to be substituted) substitute`
+                    - `#define int32_t int`
     - inode
         - struct
             - `stat`
@@ -397,7 +415,17 @@ Notes:
         - examples
             - *Tatarstan demanded greater autonomy within the Russion Federation*
             - *economic autonomy is still a long way off for women*
-    
+    - *arithmetic*, *mathematic*
+    - *imaginary*
+    - *almond*
+        - related words
+            - *shell*
+            - *edible*, *eat*
+            - *oval*, *circle*, *flatten*, *ellipse*
+            - *nut*, *fruit*
+    - *recipe*
+        - related words
+            - *food*
 
 - dao
     - wei miao xuan tong 
