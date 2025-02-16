@@ -37,10 +37,23 @@ Notes:
         - .git/refs/heads/*branchs...*
     - remote refs
         - .git/refs/remote_name/*branches...*
-    - initial git
+    - initial git code review
         - cache
             - cache data
             - cache metadata
+        - `cache.h`
+            - genius macro(ok, maybe just a normal trick)
+                - ```
+                    struct cache_entry{
+                        ...
+                        unsigned short namelen;
+                        unsigned char name[0];
+                    }
+                    #define cache_entry_size(len) ((offsetof(struct cache_entry, name) + (len) \
+                    + 8) & ~7)
+                    #define ce_size(ce) cache_entry_size(ce->namelen)
+                  ```
+                  calculate struct size with dynamic array 
 
 - gnu-coreutils
 
