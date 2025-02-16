@@ -7,7 +7,10 @@ Notes:
         - manual(man)
         - abbreviation
         - operator
+        - operand
         - unary
+        - ternary
+        - omit
         - arithmetic
         - imaginary
         - preprocessing
@@ -83,6 +86,18 @@ Notes:
         - `stddef.h`
             - `size_t offsetof(type, member)`  
                 - returns the offset of the field `member` from the start of the structure `type`, in units of bytes 
+        - `stdlib.h`
+            - `char* getenv(const char* name)`
+                - search environment list to find environment viriable `name`, and return
+                    a pointer to the corresponding string
+        - `string.h`
+            - `void *memset(void *s, int c, size_t n)`
+                - copy `c` into each of the first `n` bytes of the object pointed to by `s`
+                - return a pointer to `s`
+            - `void *memcpy(void *dest, void *src, size_t n)`
+                - copy `n` bytes from memory area `src` to memory area `dest`
+                - the memory areas must not overlap
+                - return a pointer to `dest`
     - operators
         - `sizeof`
             - *compile-time operation* 
