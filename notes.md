@@ -17,6 +17,7 @@ Notes:
         - compilation
         - assembly
         - linking
+        - patent
 
 - terms 
     - dev
