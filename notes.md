@@ -456,6 +456,8 @@ Notes:
         - related words
             - *food*
     - *usage*, *use*
+    - *lamp*
+    - *ambiguous*
 
 - dao
     - wei miao xuan tong 
