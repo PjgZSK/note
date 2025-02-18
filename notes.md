@@ -461,8 +461,21 @@ Notes:
     - *mine*, *miner*
         - related words
             - *hole*
-            - *coal*, *metal*, *salt*
+            - *coal*, *metal*, *salt*, *rubber*
             - *soil*
+    - *workbench*
+        - related words
+            - *bar*, *tube*, *cylinder*, *solid*, *hollow*, *spring*
+            - *tab*
+            - *badge*, *fasten*
+            - *banner*, *stretch*, *pole*, *march*
+            - *bread*, *breadcrump*, *yeast*, *fungus*, *organism*
+            - *gutter*
+            - *pane*
+    - *grain*
+        - related words
+            - *flour*, *powder*, *wheat* 
+    - *plural*
 
 - dao
     - wei miao xuan tong 
