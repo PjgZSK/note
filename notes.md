@@ -6,18 +6,21 @@ Notes:
         - shallow
         - manual(man)
         - abbreviation
-        - operator
-        - operand
-        - unary
-        - ternary
+        - operator, operand
+        - unary, ternary
         - omit
         - arithmetic
         - imaginary
-        - preprocessing
-        - compilation
-        - assembly
-        - linking
+        - preprocessing, compilation, assembly, linking
         - patent
+        - deflate, inflate
+        - revision
+        - consistency
+        - flush
+        - compromise
+        - latency
+        - degrade
+        - pending
 
 - terms 
     - dev
@@ -458,6 +461,8 @@ Notes:
     - *usage*, *use*
     - *lamp*
     - *ambiguous*
+    - *compliant*
+    - *edification*
 
 - dao
     - wei miao xuan tong 
