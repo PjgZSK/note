@@ -21,6 +21,7 @@ Notes:
         - latency
         - degrade
         - pending
+        - exceed, excess
 
 - terms 
     - dev
@@ -79,14 +80,15 @@ Notes:
                 (option, default)*shell command*
 
 - c
-    - system call
+    - standard c library
         - `sys/stat.h`
             - `mkdir(const char*, unsigned int mode_t)`
                 - make a dir
         - `stdio.h`
             - `perror(const char*)`
                 - print a system error message 
-    - standard c library
+            - `int sscanf(const char* str, const char* format, ...)`
+                - scans formattd input according to `format`
         - `stddef.h`
             - `size_t offsetof(type, member)`  
                 - returns the offset of the field `member` from the start of the structure `type`, in units of bytes 
@@ -284,6 +286,10 @@ Notes:
                         - *tactics game*        noun + noun
 
 - grammar examples
+    - be of
+        - *Each pointer argument must be of a type that is appropriate for the value returned by the corresponding conversition specification*
+    - otherwise
+        - *if the number of pointer arguments exceeds the number of conversion specifications, the excess pointer arguments are evaluated, but are otherwise ignored*
     - as(proposition)
         - used as the subject...
     - will(modal verb)
