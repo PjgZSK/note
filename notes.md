@@ -458,6 +458,11 @@ Notes:
     - *usage*, *use*
     - *lamp*
     - *ambiguous*
+    - *mine*, *miner*
+        - related words
+            - *hole*
+            - *coal*, *metal*, *salt*
+            - *soil*
 
 - dao
     - wei miao xuan tong 
