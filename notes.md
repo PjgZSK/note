@@ -757,3 +757,6 @@ Notes:
     - boss
         - information accuracy: 2 star
         - information source: unkown people, people from registed company
+
+- A good question is as important as a good answer
+    - What is a good question for file of computer?
