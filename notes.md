@@ -759,4 +759,24 @@ Notes:
         - information source: unkown people, people from registed company
 
 - A good question is as important as a good answer
-    - What is a good question for file of computer?
+    - file of computer
+        - What is a good question for file of computer?
+        - example
+            - *xml* and *json*
+                - *xml*
+                    - top
+                        - items
+                    - item
+                        - parent
+                        - childern
+                        - properties
+                            - name
+                            - value
+                        - name
+                - *json*
+                    - top
+                        - `json object`
+                    - key-value
+                        - key is string
+                        - value could be `bool`, `integer`, `float`, `string`, `value array` and `json object`
+
