@@ -408,6 +408,16 @@ Notes:
             - the process of conversing something from one thing to another
         - transform
             - a complete change in the appearance or character of something or someone, especially so that that thing or person is improved 
+    - *guidance*, *guide*
+        - example
+            - *he looked to his father for inspiration and guidance*
+            - *a surface-to-air missile guidance system*
+    - *authority*
+        - example
+            - *advice or information aimed at resolving a problem or difficulty, especially as given by someone in authority*
+    - *missile*
+        - example
+            - *the directing of motion or position of something, especially a missile*
     - *curve*
         - related words
             - *bend*
