@@ -89,6 +89,25 @@ Notes:
                 - print a system error message 
             - `int sscanf(const char* str, const char* format, ...)`
                 - scans formattd input according to `format`
+                - `format`
+                    - *directives*
+                        - a sequence of white-space
+                        - an ordinary character
+                        - *a conversion specification*
+                            - begins with the character `%` followed by:
+                                - `*`
+                                - an optional decimal integer which specifies *maximum field width*
+                                - an optional *type modifier character*
+                                - a *conversion specifier* that specifies the type of input convertion to be performed
+                                    - `d`: signed decimal integer, `int`
+                                    - `u`: unsigned decimal integer, `unsigned int` 
+                                    - `o`: unsigned octal integer, `unsigned int`
+                                    - `x`: unsigned hexadecimal integer, `unsigned int` 
+                                    - `s`: a sequence of non white-space characters
+                                    - `c`: a sequence of characters whose length is specified by *maximum field width* 
+                - return
+                    - on success, return the number of input item successfully matched and assigned;
+                    - on failure, return `EOF`
         - `stddef.h`
             - `size_t offsetof(type, member)`  
                 - returns the offset of the field `member` from the start of the structure `type`, in units of bytes 
