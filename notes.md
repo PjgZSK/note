@@ -248,7 +248,8 @@ Notes:
             - *jəri*
 
 - grammar
-    - *the rules about how words change their form and combine with other words to make sentences*
+    - meaning
+        - *the rules about how words change their form and combine with other words to make sentences*
     - word form
         - pronoun(pro noun) 
             - who, which, what
@@ -281,7 +282,7 @@ Notes:
                         - *tactics game*        noun + noun
 
 - grammar examples
-    - as(proposition)
+    - as(preposition)
         - used as the subject...
     - will(modal verb)
     - what(determiner, pronoun)
@@ -291,7 +292,25 @@ Notes:
     - up(adverb)
         - end up staying at...
     - out
-    - for(proposition)
+    - of(preposition)
+        - indicates a relationship between two things, such as possession, origin, composition or association
+        - examples
+            - *The color of the sky is blue*
+            - *She is a citizen of Canada*
+            - *A cup of coffee*
+            - *One of the students was late*
+            - *He is a man of great courage* 
+            - *He died of heart attack*
+        - common phrases
+            - out of
+                - *She ran out of the room*
+            - because of
+                - *The game was cancelled because of the rain*
+            - in front of 
+                - *The car is parked in front of the house*
+            - in spite of
+                - *In spite of difficulties, they succeeded*
+    - for(preposition)
         - n+n
             - intended to be given to 
                 - *buy something for baby*
@@ -501,6 +520,13 @@ Notes:
     - character encode
         - all files are restored with binary format in computer
         - what dose decode do is explain and extract thoese binary and convert them to another format correctly
+    - aspect 
+        - logic aspect
+            - standard model
+        - implementation aspect 
+            - callbale, black box
+                - input/output limit
+                - occured error(exception)
 
 - code tools
     - msys2
@@ -569,6 +595,8 @@ Notes:
               except: 
                   ...
               ```
+        - cool iteration
+            - list comprehension
 
 - shell
     - gnu find
@@ -700,3 +728,11 @@ Notes:
             - build
             - optimization
         - version management
+
+- rate app
+    - momo
+        - information accuracy: 1 star
+        - information source: unkown people, people for reward of recommendation
+    - boss
+        - information accuracy: 2 star
+        - information source: unkown people, people from registed company
