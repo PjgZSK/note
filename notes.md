@@ -542,6 +542,22 @@ Notes:
     - chong ru ruo jin
     - gui da huan ruo sheng
 
+- city pre-study
+    - people <=> labor market <=> companys <=> leader company/people
+
+- how to improve your tech skill
+    - stage
+        - fundamentals
+        - small project 
+        - open source project
+        - performance 
+        - industry trends
+        - advanced topic, teach and share
+    - approach
+        - read book, paper
+        - practice
+        - join communities
+
 - code
     - self review
     - config in file/field/property vs config in behaviour(function)
