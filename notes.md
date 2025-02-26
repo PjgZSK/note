@@ -84,6 +84,23 @@ Notes:
         - `sys/stat.h`
             - `mkdir(const char*, unsigned int mode_t)`
                 - make a dir
+        - `sys/mman.h`
+            - `void* mmap(void* addr, size_t length, int prot, int flag, int fd, off_t offset)`
+                - create a new mapping in the virtual address space of the calling process
+                - `int prot`(memory protection of the mapping)
+                    - `PROT_EXEC`
+                    - `PROT_READ`
+                    - `PROT_WRITE`
+                    - `PROT_NONE`
+                - `int flag` 
+                    - `MAP_SHARED`
+                        - share this mapping, Updates to the mapping are visible
+                            to other processes mapping the same file and are 
+                            carried through to the underlying file
+                    - `MAP_PRIVATE`
+                        - create a private copy-on-write mapping, Updates to the
+                             mapping are invisible to other processes mapping the
+                             same file and are not carried to the underlying file 
         - `stdio.h`
             - `perror(const char*)`
                 - print a system error message 
@@ -139,60 +156,82 @@ Notes:
                 - add a substitution rule in preprocessing 
                 - `#define (to be substituted) substitute`
                     - `#define int32_t int`
-    - inode
-        - struct
-            - `stat`
-            - `statx` 
-        - component
-            - file type and mode
-                - `st_mode`
-                    - `S` stand for `stat`, `I` stand for `inode`
-                    - file type
-                        - `S_IFMT`   0170000 file make type(`FMT` stand for `format` or `file mask type`)
-                        - `S_IFSOCK` 0140000 socket
-                        - `S_IFLNK`  0120000 symbolic link
-                        - `S_IFREG`  0100000 regular file
-                        - `S_IFBLK`  0070000 block device
-                        - `S_IFDIR`  0040000 directory
-                        - `S_IFCHR`  0020000 character device
-                        - `S_IFIFO`  0010000 FIFO
-                    - file mode
-                        - `S_IRWXU`  0000700  /* RWX mask for owner */
-                        - `S_IRUSR`  0000400  /* R for owner */
-                        - `S_IWUSR`  0000200  /* W for owner */
-                        - `S_IXUSR`  0000100  /* X for owner */
-                        - `S_IRWXG`  0000070  /* RWX mask for group */
-                        - `S_IRGRP`  0000040  /* R for group */
-                        - `S_IWGRP`  0000020  /* W for group */
-                        - `S_IXGRP`  0000010  /* X for group */
-                        - `S_IRWXO`  0000007  /* RWX mask for other */
-                        - `S_IROTH`  0000004  /* R for other */
-                        - `S_IWOTH`  0000002  /* W for other */
-                        - `S_IXOTH`  0000001  /* X for other */
-                        - `S_ISUID`  0004000  /* set user id on execution */
-                        - `S_ISGID`  0002000  /* set group id on execution */
-                        - `S_ISVTX`  0001000  /* directory restrcted delete */
-            - inode number
-                - `st_ino`
-            - link count
-                - `st_nlink`
-            - user id
-                - `st_uid`
-            - group id
-                - `st_gid`
-            - file size
-                - `st_size`
-            - last access time(atime)
-                - `st_atime`
-            - last modification time(mtime)
-                - `st_mtime`
-            - last change time(ctime)
-                - `st_ctime`
-        - standard input/standard output/standard error
-            - `stdio.h`
-                - `extern FILE *stdin`
-                - `extern FILE *stdout`
-                - `extern FILE *stderr`
+    - file system
+        - term
+            - *open file descriptions*
+                - refer to entries in the system-wide table of open file
+                - each `open()` of a file create a new open file description
+        - file IO 
+            - `int open(const char* pathname, int flag, .../*mode_t mode*/)`
+                - `#include <fcntl.h>`
+                - return a *file descriptor* if success otherwise return -1
+                - `int flag`
+                    - *access mode*(one of the following must be included in the argument flag)
+                        - `O_RDONLY`
+                        - `O_WRONLY`
+                        - `O_RDWR`
+                    - *file creation flags*
+                        - affect the semantics of the open operation itself
+                        - `O_CREAT`
+                        - `O_DIRECTORY`
+                        - `O_TRUC`
+                    - *file status flags*
+                        - affect the semantics of subsequent I/O operations
+                        - `O_APPEND`
+        - inode
+            - struct
+                - `stat`
+                - `statx` 
+            - component
+                - file type and mode
+                    - `st_mode`
+                        - `S` stand for `stat`, `I` stand for `inode`
+                        - file type
+                            - `S_IFMT`   0170000 file make type(`FMT` stand for `format` or `file mask type`)
+                            - `S_IFSOCK` 0140000 socket
+                            - `S_IFLNK`  0120000 symbolic link
+                            - `S_IFREG`  0100000 regular file
+                            - `S_IFBLK`  0070000 block device
+                            - `S_IFDIR`  0040000 directory
+                            - `S_IFCHR`  0020000 character device
+                            - `S_IFIFO`  0010000 FIFO
+                        - file mode
+                            - `S_IRWXU`  0000700  /* RWX mask for owner */
+                            - `S_IRUSR`  0000400  /* R for owner */
+                            - `S_IWUSR`  0000200  /* W for owner */
+                            - `S_IXUSR`  0000100  /* X for owner */
+                            - `S_IRWXG`  0000070  /* RWX mask for group */
+                            - `S_IRGRP`  0000040  /* R for group */
+                            - `S_IWGRP`  0000020  /* W for group */
+                            - `S_IXGRP`  0000010  /* X for group */
+                            - `S_IRWXO`  0000007  /* RWX mask for other */
+                            - `S_IROTH`  0000004  /* R for other */
+                            - `S_IWOTH`  0000002  /* W for other */
+                            - `S_IXOTH`  0000001  /* X for other */
+                            - `S_ISUID`  0004000  /* set user id on execution */
+                            - `S_ISGID`  0002000  /* set group id on execution */
+                            - `S_ISVTX`  0001000  /* directory restrcted delete */
+                - inode number
+                    - `st_ino`
+                - link count
+                    - `st_nlink`
+                - user id
+                    - `st_uid`
+                - group id
+                    - `st_gid`
+                - file size
+                    - `st_size`
+                - the time of last access of file data(atime)
+                    - `st_atime`
+                - the time of last modification of file data(mtime)
+                    - `st_mtime`
+                - the time last change to the inode(ctime)
+                    - `st_ctime`
+            - standard input/standard output/standard error
+                - `stdio.h`
+                    - `extern FILE *stdin`
+                    - `extern FILE *stdout`
+                    - `extern FILE *stderr`
 
 - Latin abbreviations
     - *i.e.*
@@ -596,6 +635,7 @@ Notes:
             - conclusion
                 - initial git is write for Linux and is not compatiable with Windows 
         - on OS X
+    - signal
 
 
 - python
