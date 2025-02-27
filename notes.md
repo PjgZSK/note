@@ -855,3 +855,6 @@ Notes:
                         - key is string
                         - value could be `bool`, `integer`, `float`, `string`, `value array` and `json object`
 
+- size
+    - pants
+        - 80,107,68
