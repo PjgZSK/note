@@ -61,7 +61,15 @@ Notes:
                     + 8) & ~7)
                     #define ce_size(ce) cache_entry_size(ce->namelen)
                   ```
-                  calculate struct size with dynamic array 
+                  `unsigned char name[0]`: `name` is a array of zero length, i.e., a flexible array
+                    member
+                  using `cache_entry_size(len)` to `malloc()` a `cache_entry` with `len` length of 
+                    name, and using `ce_size(ce)` to get allocated size of `cache_entry`
+                - struct alignment and padding
+                    - rule 1: each struct member's address must be multiple of its size.
+                        e.g. `int` type's address must a multiple of 4
+                    - rule 2: the struct may need padding again to align the entire struct to
+                        the largest member's alignment
 
 - gnu-coreutils
 
