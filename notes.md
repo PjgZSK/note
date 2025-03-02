@@ -173,6 +173,10 @@ Notes:
                     - *file creation flags*
                         - affect the semantics of the open operation itself
                         - `O_CREAT`
+                        - `O_EXCL`
+                            - if this flag is specified in conjunction with `O_CREAT`, and 
+                                `pathname` already exists, then `open()` fails with the
+                                error `EEXIST`
                         - `O_DIRECTORY`
                         - `O_TRUC`
                     - *file status flags*
@@ -858,3 +862,9 @@ Notes:
 - size
     - pants
         - 80,107,68
+        - 170/78a
+            - 腰围 79 fit   
+            - 臀围 106 fit
+            - 大腿围 67 a little big
+            - 裤长 102 a little long
+            - 膝围 48.8 a little big
