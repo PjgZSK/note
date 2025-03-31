@@ -23,6 +23,48 @@ Notes:
         - pending
         - exceed, excess
 
+- data compression algorithm
+    - type
+        - lossless
+            - *Huffman coding*
+            - *Arithmetic coding*
+                - more efficient than Huffman
+                - encoding the entire data into a single fraction
+            - *Run-Length Encoding(RLE)*
+                - replace repeated consecutive data with a count and 
+                    the value
+            - *Lempel-Ziv*(lz family like lz77, lz78, lzw)
+                - dictionary-based
+            - *DEFLATE*(combines Huffman and lz77)
+            - *Bzip2*(using Burrows-Wheeler Transform)
+        - lossy(often used for media like images and audio)
+            - *DCT* for JPEG
+                - split images into blocks, applies DCT, quantizes
+                    coefficients(discarding less important info)
+                - then use Huffman or atithmetic coding
+            - *psychoacoustic models* for MP3
+                - removes sounds humans can't hear
+            - *H.264*... for video
+                - use inter-frame prediction, transform coding, etc
+    - *Huffman coding*
+        - pretty fundamental 
+        - using variable-length code based on frequency
+        - more frequent symbols get shorter codes
+        - detail
+            - Huffman tree(binary tree)
+                - each leaf is a *symbol* and the path from 
+                    root gives the *code* 
+                - build a priority queue
+                - combining the two least frequent nodes
+                - each combination create new element with the
+                    sum of their frequencies in the queue
+                - each combination create new binarty tree
+                - repeat until there is only one element in the
+                    queue, and this element is the Huffman tree 
+            - decode
+                - traverse Huffman tree bit by bit
+
+
 - terms 
     - dev
         - `\n`(Line Feed - *LF*)
@@ -31,6 +73,11 @@ Notes:
             - at classic Macos to represent a newline
         - `\r\n`(*CRLF*)
             - at Windows to represent a newline
+
+- algorithm
+    - longest common subsequence(LCS)
+        - dynamic programming
+
 
 - git
     - structure 
